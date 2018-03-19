@@ -1,0 +1,87 @@
+<div class="navbar-wrapper">
+    
+            <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="top-nav">
+                    <div class="container">
+                            <div class="navbar-header">
+                                    <!-- Logo Starts -->
+                                    <a class="navbar-brand" href="" ui-sref="home">Electricity & water readings</a>
+                                    <!-- #Logo Ends -->
+    
+    
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+    
+                            </div>
+    
+    
+                            <!-- Nav Starts -->
+                            <div class="navbar-collapse  collapse">
+                                    <ul class="nav navbar-nav navbar-right scroll">
+                                            <li><a href="" ui-sref="home">Home</a></li>
+                                            <li class="active"><a href="">Balances</a></li>
+                                            <li><a href="" ui-sref="login">Logout</a></li>
+                                    </ul>
+                            </div>
+                            <!-- #Nav Ends -->
+    
+                    </div>
+            </div>
+    
+    </div>
+    <!-- #Header Starts -->
+    
+    
+    
+    
+    <div class="container">
+            <div class="wrapper">
+    
+    
+                    <div class="banner">
+                            <div class="overlay">
+    
+     
+    
+                                    <!-- main banner-->
+                                    <h1 class="text-center" style="color:red">Hi {{name}}, Below you can check all of your balances</h1>
+                                    <!-- main banner-->
+    
+                                    <!-- service -->
+                                    <div class="service row text-center  wowload fadeInDownBig" ng-controller="popupsCtrl">
+                                            <div class="col-sm-3 col-xs-6" >
+                                                    <i class="fa fa-code  fa-4x"></i>
+                                                    <button class="btn btn-danger" ng-click="enterW()">Enter</button>
+                                                    <br> &nbsp 
+                                                    <h4>Submit your Water readings </h4>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6">
+                                                    <i class="fa fa-pencil  fa-4x"></i>
+                                                    <button class="btn btn-danger" ng-click="enterE()">Enter</button>
+                                                    <br> &nbsp 
+                                                    <h4>Submit your Electricity readings.</h4>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6">
+                                                    <i class="fa fa-cloud-download  fa-4x"></i>
+                                                    <button class="btn btn-danger" ui-sref="monthly">View</button>
+                                                    <br> &nbsp 
+                                                    <h4>Previously entered readings</h4>
+                                            </div>
+                                            
+                                    </div>
+                                    <!-- service -->
+                            </div>
+                    </div>
+    
+                    <!-- Footer Starts -->
+                    <div class="footer text-center">
+                         <a>   Designed by: Lerato Musa</a>
+                    </div>
+                    <!-- # Footer Ends -->
+                    <a href="" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
+    
+            </div>
+    </div>

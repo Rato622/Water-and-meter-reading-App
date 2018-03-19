@@ -1,0 +1,26 @@
+<div class="modal-header">
+            <h3 class="modal-title">Submit water readings</h3>
+              
+</div>
+            <div class="modal-body" ng-controller="wmeterCtrl">
+                    <div class="banner">
+                    <div class="overlayPW">
+                            <div class="col-sm-5 wowload fadeInRight">
+                                            <h2 style="color:red"><i class="fa fa-terminal"></i>Hi, {{name}} Enter water readings used</h2>
+                                            <div class="wowload fadeInRightBig">
+                                                    <p style="color:#fff"> Water meter number:</p>
+                                                    <div class="form-group"><input type="text" placeholder="Water meter number" ng-model="details.waterM" ng-disabled="disable" class="form-control"></div>
+                                                    <p style="color:#fff"> Water readings in m³:</p>
+                                                    <div class="form-group"><input type="text" placeholder="Meters in m³" ng-model="wreading.readingsW" class="form-control"></div>
+                                                    
+                                                    <div class="form-group"><button class="btn btn-danger" ng-click="wreadings(wreading)"><i class="fa fa-paper-plane"></i> Submit</button></div>
+                                            </div>
+                                   
+
+                            </div>
+                </div>
+                </div>
+</div>
+<div class="modal-footer">
+            
+</div>
